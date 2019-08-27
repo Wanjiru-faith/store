@@ -22,7 +22,7 @@ export default{
     computed:{
         todos(){
         return this.$store.getters.allTodos;
-        }
+        },
         // ...mapGetters(['allTodos'])
     }, 
     methods:{
